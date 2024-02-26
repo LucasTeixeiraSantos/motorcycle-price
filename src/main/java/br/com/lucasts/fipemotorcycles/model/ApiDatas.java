@@ -1,10 +1,9 @@
-package br.com.lucasts.fipemotos.model;
+package br.com.lucasts.fipemotorcycles.model;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-import java.util.List;
-
 @JsonIgnoreProperties(ignoreUnknown = true)
-public record ApiModels (@JsonAlias("modelos") List<ApiDatas> apiModels){
+public record ApiDatas(@JsonAlias("codigo") String code,
+                       @JsonAlias("nome") String name){
 }

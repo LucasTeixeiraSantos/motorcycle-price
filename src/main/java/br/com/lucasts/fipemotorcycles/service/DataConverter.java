@@ -1,4 +1,4 @@
-package br.com.lucasts.fipemotos.service;
+package br.com.lucasts.fipemotorcycles.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

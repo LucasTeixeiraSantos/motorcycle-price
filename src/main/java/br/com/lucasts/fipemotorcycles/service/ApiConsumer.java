@@ -1,4 +1,4 @@
-package br.com.lucasts.fipemotos.service;
+package br.com.lucasts.fipemotorcycles.service;
 
 import java.io.IOException;
 import java.net.URI;

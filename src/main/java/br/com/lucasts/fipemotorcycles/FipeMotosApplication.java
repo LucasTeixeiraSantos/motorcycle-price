@@ -1,6 +1,6 @@
-package br.com.lucasts.fipemotos;
+package br.com.lucasts.fipemotorcycles;
 
-import br.com.lucasts.fipemotos.main.Main;
+import br.com.lucasts.fipemotorcycles.main.Main;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
