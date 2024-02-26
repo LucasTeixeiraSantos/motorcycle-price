@@ -22,7 +22,10 @@ public class DataConverter implements IDataConverter {
     public <T> List<T> getList(String json, Class<T> genericClass) {
         CollectionType list = mapper.getTypeFactory()
                 .constructCollectionType(List.class, genericClass);
-
-        return null;
+        try {
+            return mapper.readValue(json, list);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
